@@ -21,7 +21,7 @@
 ## The Admin Can Also View the Doctor's Report.
 
 
-# Screenshot
+# Screenshots
 
 ![Screenshot_20230616-134838_HosP](https://github.com/poovandrang/HosP-/assets/136569530/3eaf2baf-bef9-474e-bf56-f03f127c336c)
 ![Screenshot_20230616-134904_HosP](https://github.com/poovandrang/HosP-/assets/136569530/92488c19-f10d-4589-8442-37ca6a68710b)
