@@ -10,9 +10,9 @@
 
 
 # 🔷Users
-# 1.Admin 🏥
-# 2.Patient 💊
-# 3.Doctor 🩺
+## 1.Admin 🏥
+## 2.Patient 💊
+## 3.Doctor 🩺
  
  
   ![Screenshot_20230616-134838_HosP](https://github.com/poovandrang/HosP-/assets/136569530/3eaf2baf-bef9-474e-bf56-f03f127c336c)
