@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3">
+
+
+
+
+    <TableRow tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/TABLE_PATIENT"
+            android:layout_width="50dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_column="1" />
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:id="@+id/TABLE_TIME"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:id="@+id/TABLE_STATUS"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_column="3" />
+
+    </TableRow>
+
+
+</TableLayout>

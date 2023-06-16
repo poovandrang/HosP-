@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="LOGOUT"
+        android:id="@+id/EXIT_MENU_VIEW_DOCTOR"
+        android:icon="@drawable/logout"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="NOTIFICATION"
+        android:visible="false"
+        android:id="@+id/NOTIFICATION_VIEW_DOC"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:title="REACH US"
+        android:id="@+id/REACH_US_VIEW_DOC"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:title="ABOUT US"
+        android:id="@+id/ABOUT_MENU_VIEW_DOCTOR"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="MY RATING"
+        android:id="@+id/RATING_MENU_VIEW_DOCTOR"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+</menu>

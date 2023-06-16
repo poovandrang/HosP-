@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hosp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HosP"
+        tools:ignore="MissingClass"
+        tools:targetApi="31">
+        <activity
+            android:name=".Forget_Password_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Display_Rating"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_page_doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_Page_Patient"
+            android:exported="false" />
+        <activity
+            android:name=".Patient_View_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Rating"
+            android:exported="false" />
+        <activity
+            android:name=".Table_Status_Appo"
+            android:exported="false" />
+        <activity
+            android:name=".Sheet_List"
+            android:exported="false" />
+        <activity
+            android:name=".Cancel_Appo_Mobile_Check"
+            android:exported="false" />
+        <activity
+            android:name=".About_doc_pat"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Request"
+            android:exported="false" />
+        <activity
+            android:name=".NotifiCation"
+            android:exported="false" />
+        <activity
+            android:name=".Appointment_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Patient"
+            android:exported="false" />
+        <activity
+            android:name=".View_doctor_List"
+            android:exported="false" />
+        <activity
+            android:name=".View_patient_List"
+            android:exported="false" />
+        <activity
+            android:name=".About_Us"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Get_password"
+            android:exported="false" />
+        <activity
+            android:name=".doctor_register"
+            android:exported="false" />
+        <activity
+            android:name=".patient_register"
+            android:exported="false" />
+        <activity
+            android:name=".View_list_Content"
+            android:exported="false" />
+        <activity
+            android:name=".Login2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HosP/app/src/main/res/layout/activity_appointment.xml" value="0.36666666666666664" />
+        <entry key="..\:/HosP/app/src/main/res/layout/activity_display_rating.xml" value="0.36666666666666664" />
+        <entry key="..\:/HosP/app/src/main/res/layout/activity_home_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hamsa/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_appointment.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/Hamsa/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_display_rating.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hamsa/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_rating.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/about_us.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/add_icon.xml" value="0.2705" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/add_png.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/assign.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/blueround.xml" value="0.229" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/edit_png.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/eye_close_png.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/eye_open_png.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/eye_png.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/eyes_open_png.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/flowerround.xml" value="0.229" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/menu.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/menu_png.xml" value="0.2705" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/patient.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/person_png.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/round_tick.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/rounded_bg.xml" value="0.229" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/rounded_blue_gray.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/roundrd_blue2.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/select_green.xml" value="0.3015" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/three_dots.xml" value="0.3045" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/drawable/tick_png.xml" value="0.305" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_about_doc_pat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_about_us.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_appointment.xml" value="0.22" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_appointment2.xml" value="0.14" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_appointment_recycler.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_cancel_appo_mobile_check.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_dash_board.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_display_rating.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_doctor_register.xml" value="0.25" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_doctor_request.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_forget_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_forget_password_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_get_password.xml" value="0.22" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_home_doctor.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_home_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_login2.xml" value="0.33" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_no_ti.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_notifi_cation.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_notificatio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_notification_page_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_notification_page_patient.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_patient_notification.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_patient_notification2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_patient_register.xml" value="0.25" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_rating.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_sheet_list.xml" value="0.22" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_table_status_appo.xml" value="0.25" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_user_list.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_view_doctor_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/activity_view_patient_list.xml" value="0.25" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/appointment_dialog.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/appointment_recycler.xml" value="0.18" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/appointment_view.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/color_spinner_layout.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/custom_dialog.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/custom_rate_dialog.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/dialog_apperance.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/dialog_custom.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/display_details.xml" value="0.5" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/display_details_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/display_details_patients.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/doctor_list_appo.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/doctor_list_patient_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/doctor_notification_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/fragment_doctor__list__fragement.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/fragment_patient__list_.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/header_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/list_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/nav_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/notification_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/notification_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/notification_patient_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/notification_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/notification_view_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/previous_rating_view.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/rate_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/selected_item.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/spinner_dropdown_layout.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/table_list.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/tool_bar.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/layout/view_list_content.xml" value="0.365625" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/menu/menu_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/menu/menu_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/menu/navigation_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/WELCOME/AndroidStudioProjects/HosP/app/src/main/res/menu/popup_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

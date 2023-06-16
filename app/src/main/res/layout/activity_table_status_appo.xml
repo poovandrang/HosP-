@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/drawerLayout_Table"
+    tools:context=".Table_Status_Appo"
+    tools:ignore="MissingClass">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <include
+            layout="@layout/tool_bar"
+            android:id="@+id/Tool"/>
+
+
+
+
+        <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3"
+    android:layout_margin="1dp"
+    android:background="@color/white"
+    tools:context=".Table_Status_Appo">
+
+
+
+    <TableRow>
+
+
+        <TextView
+            android:text="Patient"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:layout_column="1" />
+
+
+        <TextView
+            android:text="Time"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:layout_column="2" />
+
+        <TextView
+            android:text="Status"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:layout_column="3" />
+
+
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/TABLE_RECYCLER"
+        />
+
+
+
+</TableLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include
+            layout="@layout/nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

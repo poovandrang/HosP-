@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue2"
+    tools:context=".Appointment_activity">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:id="@+id/MYLINER"
+      android:background="@color/blue2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/Booked_Date"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HAMSA"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DENTAL CLINIC"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="APPOINTMENT BOOKING"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="PATIENT NAME"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/PATIENT_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_margin="30dp"
+        android:background="@drawable/rounded_bg"
+        android:maxLength="30"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/person_png"
+        android:drawablePadding="3dp"
+        android:paddingLeft="8dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MOBILE NUMBER"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+
+
+
+
+    <TextView
+        android:id="@+id/PATIENT_MOBILE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/rounded_bg"
+        android:maxLength="30"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/person_png"
+        android:drawablePadding="3dp"
+        android:paddingLeft="8dp" />
+
+
+
+      <ImageView
+          android:id="@+id/MOBILE_IMG_APPO"
+          android:layout_width="32dp"
+          android:layout_height="32dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="315dp"
+          android:src="@drawable/ic_baseline_wifi_protected_setup_24" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="APPOINTMENT DATE"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+
+
+      <TextView
+          android:id="@+id/APPOINTMENT_DATE"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/rounded_bg"
+          android:gravity="center_vertical"
+          android:hint=" Day/Mon/Year "
+          android:paddingLeft="12dp"
+          android:textColor="@color/black"
+          android:textColorHint="@color/gray"
+          android:textSize="18dp" />
+
+      <ImageView
+          android:id="@+id/CALENDER_APPO"
+          android:layout_width="32dp"
+          android:layout_height="32dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="315dp"
+          android:src="@drawable/calender_png" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="TIME"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_margin="30dp">
+
+
+      <TextView
+          android:id="@+id/APPOINTMENT__TIMEING"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/rounded_bg"
+          android:gravity="center_vertical"
+          android:hint=" Time"
+          android:inputType="phone"
+          android:paddingLeft="12dp"
+          android:textColor="@color/black"
+          android:textColorHint="@color/gray"
+          android:textSize="18dp" />
+
+      <ImageView
+          android:id="@+id/CALENDER_APPO_TIME"
+          android:layout_width="32dp"
+          android:layout_height="32dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="315dp"
+          android:src="@drawable/ic_baseline_access_time_24" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    <Spinner
+        android:id="@+id/SPINNER_APPOINTMENT_TIME"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="30dp"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:text="SPECIALIST"
+          android:textSize="16dp"
+          android:textColor="@color/black"
+          android:layout_marginLeft="25dp"
+          android:layout_marginTop="5dp"
+          android:textStyle="bold"/>
+
+      <Spinner
+          android:id="@+id/SPINNER_APPOINTMENT_DOCTOR"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/rounded_bg"
+          android:layout_margin="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="DOCTORS"
+        android:textSize="16dp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/DDDDDD"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="DOCTOR LIST"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+    <Spinner
+        android:id="@+id/SPINNER_LISTDOCTOR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="30dp"/>
+
+
+    <TextView
+        android:id="@+id/RATE_RATE_RATE"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="RATE"
+        android:textSize="16dp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_margin="25dp"
+        android:background="@color/blue2"
+        android:id="@+id/RELATED_LAYOUT">
+
+
+      <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+          android:id="@+id/SWIPE_TO_REFRESH_APPO"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/DOCTOR_LIST_RECYCLER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scrollbars="horizontal" />
+
+      </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/CLICK_VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="DOCTOR LIST"
+        android:textSize="16dp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+
+
+      <Button
+          android:id="@+id/BOOK_APPOINTMENT"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_margin="25dp"
+          android:text="BOOK NOW"
+          android:textStyle="bold"
+          android:textColor="@color/white"
+          android:backgroundTint="@color/black"/>
+
+
+
+
+
+
+
+
+  </LinearLayout>
+
+    </ScrollView>

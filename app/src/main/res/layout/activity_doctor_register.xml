@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctor_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/light_blue">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="DOCTOR REGISTRATION"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/blue2"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Check your information before submitting"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+
+    <EditText
+        android:id="@+id/DUSERNAME"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_margin="25dp"
+        android:textSize="19sp"
+        android:background="@drawable/rounded_blue_gray"
+        android:maxLength="25"
+        android:paddingLeft="8dp"/>
+
+
+        <EditText
+            android:id="@+id/DNAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:layout_margin="25dp"
+            android:textSize="19sp"
+            android:background="@drawable/rounded_blue_gray"
+            android:maxLength="25"
+            android:paddingLeft="8dp"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="25dp">
+
+
+            <EditText
+                android:id="@+id/DPASSWORD"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_blue_gray"
+                android:hint="  Password"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:paddingLeft="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:id="@+id/eye_pass_doc"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:onClick="Password_eye"
+                android:src="@drawable/eye_open_png"
+                android:paddingRight="5dp" />
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="25dp">
+
+            <EditText
+                android:id="@+id/DCONFORMPASSWORD"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_blue_gray"
+                android:hint="  Confirm Password"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:paddingLeft="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black" />
+
+
+            <ImageView
+                android:id="@+id/eye_pass_conform_doc"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/eye_open_png"
+                android:layout_marginRight="25dp"
+                android:onClick="Conform_Password_Eye"
+                android:paddingRight="5dp"/>
+
+        </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/DMOBILE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Mobile Number"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textColorHint="@color/black"
+        android:layout_margin="25dp"
+        android:inputType="phone"
+        android:background="@drawable/rounded_blue_gray"
+        android:maxLength="10"
+        android:paddingLeft="8dp"/>
+
+    <EditText
+        android:id="@+id/DMAIL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  E-Mail"
+        android:textSize="19sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_margin="25dp"
+        android:background="@drawable/rounded_blue_gray"
+        android:maxLength="55"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="8dp"/>
+
+    <EditText
+        android:id="@+id/DAGE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Age"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:layout_margin="25dp"
+        android:background="@drawable/rounded_blue_gray"
+        android:maxLength="2"
+        android:paddingLeft="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Gender"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:layout_marginLeft="25dp"
+        android:textStyle="bold"/>
+
+
+    <RadioGroup
+        android:id="@+id/DRADIO_GROUP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_blue_gray"
+        android:layout_margin="25dp">
+
+        <RadioButton
+            android:id="@+id/DMALE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp" />
+        <RadioButton
+
+            android:id="@+id/DFEMALE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"/>
+
+    </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Specialist"
+            android:textAllCaps="true"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"/>
+        <Spinner
+            android:id="@+id/SPINNER_SPECIALIST"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_blue_gray"
+            android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/SUBMIT_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue2"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

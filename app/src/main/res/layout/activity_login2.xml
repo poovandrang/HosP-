@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    tools:context=".Login2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign up "
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginBottom="3dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded_bg"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Patient "
+        android:textSize="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded_bg"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+    <ImageButton
+        android:id="@+id/PATIENT_REG"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/patient_logo" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Doctor "
+        android:textSize="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:background="@drawable/rounded_bg"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <ImageButton
+        android:id="@+id/DOCTOR_REG"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/doctor_logo" />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Doctor_Request">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/blue2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/Booked_Date"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="HAMSA"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="DENTAL CLINIC"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Appointment Request"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="USER NAME"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/DOCTOR_USER_NAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  "
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_margin="30dp"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:drawablePadding="3dp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_bg"
+            android:maxLength="30"
+            android:drawableLeft="@drawable/person_png"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="mobile "
+            android:textAllCaps="true"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/DOCTOR_REQ_MOBILE"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  "
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_margin="30dp"
+            android:inputType="phone"
+            android:background="@drawable/rounded_bg"
+            android:maxLength="10"
+            android:drawableLeft="@drawable/call_png"
+            android:paddingLeft="8dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Patient "
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded_bg"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="PATIENT NAME"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/DOCTOR_REQ_PATIENT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:drawablePadding="3dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:layout_margin="30dp"
+            android:background="@drawable/rounded_bg"
+            android:maxLength="30"
+            android:drawableLeft="@drawable/person"
+            android:paddingLeft="15dp"/>
+
+
+
+        <Button
+            android:id="@+id/SEND_REQUEST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="SEND REQUEST"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

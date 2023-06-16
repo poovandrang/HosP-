@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Sheet_List">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@color/teal_700"
+    >
+
+
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="User Name"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center"/>
+
+            <ListView
+                android:id="@+id/PATIENT_LIST"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:divider="@color/bb"
+                android:dividerHeight="1dp"
+                android:headerDividersEnabled="true"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="MOBILE"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+            <ListView
+                android:id="@+id/PATIENT_LIST_MOBILE"
+                android:layout_width="151dp"
+                android:layout_height="match_parent"
+                android:divider="@color/bb"
+                android:dividerHeight="1dp"
+                android:headerDividersEnabled="true"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="50dp"
+                android:text="EMAIL"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+
+            <ListView
+                android:id="@+id/PATIENT_LIST_MAIL"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:divider="@color/bb"
+                android:dividerHeight="1dp"
+                android:headerDividersEnabled="true"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="AGE"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+            <ListView
+                android:id="@+id/PATIENT_LIST_AGE"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:divider="@color/bb"
+                android:dividerHeight="1dp"
+                android:headerDividersEnabled="true"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="GENDER"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+            <ListView
+                android:id="@+id/PATIENT_LIST_GENDER"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:divider="@color/bb"
+                android:dividerHeight="1dp"
+                android:headerDividersEnabled="true"
+               />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

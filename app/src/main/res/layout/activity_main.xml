@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HAMSA"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DENTEL CLINIC"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Welcomes You !"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:drawableLeft="@drawable/lang_png"
+        android:text="  Let's get in"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_margin="20dp"/>
+
+
+    <Spinner
+        android:id="@+id/SPINNER_MODE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="15dp"/>
+
+
+
+    <EditText
+        android:id="@+id/LUSERNAME"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Username"
+        android:layout_margin="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/rounded_bg"
+        android:maxLength="15"
+        android:drawableLeft="@drawable/person_png"
+        android:paddingLeft="8dp"/>
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/LPASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        app:hintTextColor="@color/black"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/rounded_bg"
+        android:maxLength="15"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/info_png"
+        android:paddingRight="5dp"
+        android:paddingLeft="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/Pass_Check_Box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password  "
+        android:textSize="14dp"
+        android:theme="@style/Mycheck"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/LOGBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Log in"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/black" />
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/FGET"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Forget Password ?"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/FGET_Doc"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Forget Password ?"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text=" Create new account"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/add_png"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:background="#20ffffff"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/SIGNINBTN"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

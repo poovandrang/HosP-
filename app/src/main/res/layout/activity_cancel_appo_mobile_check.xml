@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Cancel_Appo_Mobile_Check">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="HAMSA"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="DENTAL CLINIC"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=" Verification"
+        android:textAllCaps="true"
+        android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"/>
+
+
+    <EditText
+        android:id="@+id/MOBILE_CHECK_DEL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  MOBILE"
+        android:layout_margin="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/rounded_bg"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/call_png"
+        android:paddingLeft="8dp"/>
+
+
+    <Button
+        android:id="@+id/VERIFY_MOB_DEL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="Verify"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

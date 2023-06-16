@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patient_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/light_blue">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:text="PATIENT REGISTRATION"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@color/blue2"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:text="Check your information before submitting"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+
+
+        <EditText
+            android:id="@+id/PUSERNAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="19sp"
+            android:hint="  Username"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_blue_gray"
+            android:maxLength="30"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/PNAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="19sp"
+            android:hint="  Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_blue_gray"
+            android:maxLength="30"
+            android:paddingLeft="8dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="25dp">
+
+
+            <EditText
+                android:id="@+id/PPASSWORD"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_blue_gray"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:paddingLeft="8dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black" />
+
+
+
+
+            <ImageView
+                android:id="@+id/eye_pass"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/eye_open_png"
+                android:onClick="Password_eye"
+                android:paddingRight="5dp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="25dp">
+
+            <EditText
+                android:id="@+id/PCONFORMPASSWORD"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_blue_gray"
+                android:hint="  Confirm Password"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:paddingLeft="8dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black" />
+
+
+            <ImageView
+                android:id="@+id/eye_pass_conform"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/eye_open_png"
+                android:layout_marginRight="25dp"
+                android:onClick="Conform_Password_Eye"
+                android:paddingRight="5dp"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/PMOBILE"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Mobile Number"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_blue_gray"
+            android:maxLength="10"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/PMAIL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  E-Mail"
+            android:textSize="19sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:layout_margin="25dp"
+            android:background="@drawable/rounded_blue_gray"
+            android:maxLength="50"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/PAGE"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="  Age"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:layout_margin="25dp"
+            android:inputType="number"
+            android:background="@drawable/rounded_blue_gray"
+            android:maxLength="2"
+            android:paddingLeft="8dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Gender"
+            android:textSize="18dp"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"/>
+
+
+
+
+
+        <RadioGroup
+            android:id="@+id/RADIO_GROUP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_blue_gray"
+            android:layout_margin="25dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp" />
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/PBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="Submit"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue2"/>
+
+    </LinearLayout>
+
+</ScrollView>

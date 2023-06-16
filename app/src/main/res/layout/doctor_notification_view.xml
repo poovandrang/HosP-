@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="16dp"
+    android:orientation="horizontal"
+    android:backgroundTint="@color/blue2"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/white"
+        android:id="@+id/TOP">
+
+        <TextView
+            android:id="@+id/Doct_Name"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/person"
+            android:paddingLeft="2dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_bg"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Number_123"
+            android:visibility="gone"
+
+             />
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/Title_dr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Doct_Notifi"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="APPOINTMENT REQUEST"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/Title_dr"
+            android:id="@+id/Message">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text=" Name : "
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/Patient_Sir"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:layout_marginLeft="1dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/Message"
+            android:id="@+id/Request_TD">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Request on : "
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/Time_TD"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="T"
+                android:layout_marginLeft="1dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text=","
+                android:layout_marginLeft="1dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/Date_TD"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="D"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/Request_TD"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp">
+
+            <ImageButton
+                android:id="@+id/NOTI_DOC_OK"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="320dp"
+                android:background="@color/teal_700"
+                android:foregroundGravity="center_vertical"
+                android:src="@drawable/ic_baseline_check_24" />
+
+
+            <ImageButton
+                android:id="@+id/NOTI_DOC_NO"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="275dp"
+                android:background="@color/pink"
+                android:foregroundGravity="center_vertical"
+                android:src="@drawable/x_png" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

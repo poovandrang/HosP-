@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HosP</string>
+
+
+    <string-array name="Specialist">
+        <item>Select</item>
+        <item>Dental Surgeon</item>
+        <item>Endodontist</item>
+        <item>Orthodonist</item>
+
+    </string-array>
+
+
+    <string-array name="Time">
+
+        <item>Select</item>
+        <item>7am-8am</item>
+        <item>8am-9am</item>
+        <item>9am-10am</item>
+        <item>10am-11am</item>
+        <item>11am-12pm</item>
+        <item>12pm-1pm</item>
+        <item>1pm-2pm</item>
+        <item>2pm-3pm</item>
+        <item>3pm-4pm</item>
+        <item>4pm-5pm</item>
+        <item>5pm-6pm</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <style name="Mycheck" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorControlNormal">#ffffff</item>
+
+    </style>
+
+
+</resources>

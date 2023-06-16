@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/SWIPE_TO_REFRESH_PATIENT"
+    android:layout_below="@id/TOOL_BAR_MAIN"
+    tools:context=".Home_Patient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/TOOL_BAR_MAIN"
+        layout="@layout/tool_bar" />
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TOOL_BAR_MAIN"
+            android:background="@color/gray2"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/TOOL_BAR_MAIN"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/person"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="User :"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/Display_Username"
+                android:layout_width="170dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/TOOL_BAR_MAIN"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:drawablePadding="3dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RYCYCLER_APPOINTMENT_LIST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Linear" />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FLOATING_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/add_icon" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
