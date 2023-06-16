@@ -21,7 +21,7 @@
 
 
 
-# ADMIN
+# ADMIN 🏥
 
 # 🔷Only The Admin can view the Doctor's and Patient's Details.
 # 🔷After the Verification is Successfully Completed By The Admin, He Can Allow The Doctor To Get Patients Requests.
@@ -38,7 +38,7 @@
 
 
 
-# PATIENT
+# PATIENT 💊
 
 # 🔷Once the Patient Created his/her Account they can request an Appointment for a doctor.
 # 🔷Patient Can View Doctor's Rating.
@@ -60,7 +60,7 @@
 
 
 
-# DOCTOR
+# DOCTOR 🩺
 
 # 🔷The Doctor Can Accept or Reject the Request Sent By The Patient.
 # 🔷He Can view his overall Rating.
