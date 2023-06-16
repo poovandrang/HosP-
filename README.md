@@ -16,9 +16,9 @@
 
 # ADMIN
 
-###  Only The Admin can view the Doctor's and Patient's Details.
-### After the Verification is Successfully Completed By The Admin, He Can Allow The Doctor To Get Patients Requests.
-### The Admin Can Also View the Doctor's Report.
+##  Only The Admin can view the Doctor's and Patient's Details.
+## After the Verification is Successfully Completed By The Admin, He Can Allow The Doctor To Get Patients Requests.
+## The Admin Can Also View the Doctor's Report.
 
 
 ![Screenshot_20230616-134838_HosP](https://github.com/poovandrang/HosP-/assets/136569530/3eaf2baf-bef9-474e-bf56-f03f127c336c)
@@ -33,16 +33,16 @@
 
 # PATIENT
 
-### Once the Patient Created his/her Account they can request an Appointment for a doctor.
-### Patient Can View Doctor's Rating.
-### Reach Us is used to find the current location of the Hospital.
-### After the Appointment Completed Successfully He/her can Rate the Doctor.
+## Once the Patient Created his/her Account they can request an Appointment for a doctor.
+## Patient Can View Doctor's Rating.
+## Reach Us is used to find the current location of the Hospital.
+## After the Appointment Completed Successfully He/her can Rate the Doctor.
 
 
-![Screenshot_20230616-141510_HosP](https://github.com/poovandrang/HosP-/assets/136569530/028a8670-be3e-4814-9f1c-57c808c5931f)
-![Screenshot_20230616-141524_HosP](https://github.com/poovandrang/HosP-/assets/136569530/c75947fb-219e-4e81-8586-22b2d89f8242)
-![Screenshot_20230616-142531_HosP](https://github.com/poovandrang/HosP-/assets/136569530/865d65ad-ee22-4839-b92f-ff194e44e294)
-![Screenshot_20230616-142147_HosP](https://github.com/poovandrang/HosP-/assets/136569530/93b97635-b567-436f-ad89-36200c57a0d9)
+## ![Screenshot_20230616-141510_HosP](https://github.com/poovandrang/HosP-/assets/136569530/028a8670-be3e-4814-9f1c-57c808c5931f)
+## ![Screenshot_20230616-141524_HosP](https://github.com/poovandrang/HosP-/assets/136569530/c75947fb-219e-4e81-8586-22b2d89f8242)
+## ![Screenshot_20230616-142531_HosP](https://github.com/poovandrang/HosP-/assets/136569530/865d65ad-ee22-4839-b92f-ff194e44e294)
+## ![Screenshot_20230616-142147_HosP](https://github.com/poovandrang/HosP-/assets/136569530/93b97635-b567-436f-ad89-36200c57a0d9)
 
 
 
@@ -51,17 +51,17 @@
 
 # DOCTOR
 
-### The Doctor Can Accept or Reject the Request Sent By The Patient.
-### He Can view his overall Rating.
-### Reach Us is used to find the current location of the Hospital.
-### After the Appointment is Completed He can Request the Patient for a Rating.
+## The Doctor Can Accept or Reject the Request Sent By The Patient.
+## He Can view his overall Rating.
+## Reach Us is used to find the current location of the Hospital.
+## After the Appointment is Completed He can Request the Patient for a Rating.
 
 
-![Screenshot_20230616-141618_HosP](https://github.com/poovandrang/HosP-/assets/136569530/4489edd8-c22d-41be-845e-38e578063bdd)
-![Screenshot_20230616-141633_HosP](https://github.com/poovandrang/HosP-/assets/136569530/cc726906-04b5-4e24-b84e-c47dbd49e437)
-![Screenshot_20230616-141637_HosP](https://github.com/poovandrang/HosP-/assets/136569530/b664f112-7902-4f83-a092-c876bf03639c)
-![Screenshot_20230616-142309_HosP](https://github.com/poovandrang/HosP-/assets/136569530/d5fb5c24-615c-444e-b03e-86b958e4664d)
-![Screenshot_20230616-142431_HosP](https://github.com/poovandrang/HosP-/assets/136569530/18b54209-0c31-4a78-b070-a1cd2a573cc7)
+## ![Screenshot_20230616-141618_HosP](https://github.com/poovandrang/HosP-/assets/136569530/4489edd8-c22d-41be-845e-38e578063bdd)
+## ![Screenshot_20230616-141633_HosP](https://github.com/poovandrang/HosP-/assets/136569530/cc726906-04b5-4e24-b84e-c47dbd49e437)
+## ![Screenshot_20230616-141637_HosP](https://github.com/poovandrang/HosP-/assets/136569530/b664f112-7902-4f83-a092-c876bf03639c)
+## ![Screenshot_20230616-142309_HosP](https://github.com/poovandrang/HosP-/assets/136569530/d5fb5c24-615c-444e-b03e-86b958e4664d)
+## ![Screenshot_20230616-142431_HosP](https://github.com/poovandrang/HosP-/assets/136569530/18b54209-0c31-4a78-b070-a1cd2a573cc7)
 
 
 
