@@ -1,4 +1,6 @@
-<h1> HosP <center> </h1>
+
+<font color="green"><h1> HosP <center> </h1></font>
+
 ## This is the Android Application that can be used to Book Appointments in hospitals,clinic,etc....
 
 
