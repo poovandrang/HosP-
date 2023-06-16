@@ -1,7 +1,7 @@
 # HosP 
 ## This is the Android Application that can be used to Book Appointments in hospitals,clinic,etc....
 
-![Screenshot_20230616-134826_One UI Home](https://github.com/poovandrang/HosP-/assets/136569530/8cd92c2f-7b87-4977-a553-b783d45b851d)
+
 
 
 
@@ -9,6 +9,8 @@
 ### 1.Admin 
 ### 2.Patient
 ### 3.Doctor
+
+![Screenshot_20230616-134826_One UI Home](https://github.com/poovandrang/HosP-/assets/136569530/8cd92c2f-7b87-4977-a553-b783d45b851d)
 
 
 
