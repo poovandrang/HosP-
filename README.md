@@ -66,6 +66,15 @@
 ## 🔷He Can view his overall Rating.
 ## 🔷Reach Us is used to find the current location of the Hospital.
 ## 🔷After the Appointment is Completed He can Request the Patient for a Rating.
+  
+  
+  
+  
+ 
+  
+  
+  
+  
 
 
 
