@@ -96,7 +96,7 @@
 ![Screenshot_20230617-145314_HosP](https://github.com/poovandrang/HosP-/assets/136569530/df5b866f-fbb5-4037-9c25-d063be793726)
 
 # DESCREPTION
-## 🔷The HosP Appointment Booking System helps patients book/schedule their appointment with healthcare providers, such as doctors or specialists in a systematic way. 
+## 🔷 The HosP Appointment Booking System helps patients book/schedule their appointment with healthcare providers, such as doctors or specialists in a systematic way. 
 
 
 
