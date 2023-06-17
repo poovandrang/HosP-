@@ -90,10 +90,10 @@
 ## 7.Sqlite Database.
 
 ![Screenshot_20230617-144948_HosP](https://github.com/poovandrang/HosP-/assets/136569530/ba434467-9cc8-4d97-8477-611f9b013546)
-![Screenshot_20230617-145314_HosP](https://github.com/poovandrang/HosP-/assets/136569530/df5b866f-fbb5-4037-9c25-d063be793726)
+
 ![Screenshot_20230617-145138_HosP](https://github.com/poovandrang/HosP-/assets/136569530/67f51bb1-8d6a-4484-aa7c-5394293ce9d0)
 
-
+![Screenshot_20230617-145314_HosP](https://github.com/poovandrang/HosP-/assets/136569530/df5b866f-fbb5-4037-9c25-d063be793726)
 
 # DESCREPTION
 ## The HosP Appointment Booking System helps patients book/schedule their appointment with healthcare providers, such as doctors or specialists in a systematic way. 
