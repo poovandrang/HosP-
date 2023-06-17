@@ -24,7 +24,7 @@
 # ADMIN 🏥
 
 ## 🔷Only The Admin can view the Doctor's and Patient's Details.
-## 🔷After the Verification is Successfully Completed By The Admin, He Can Allow The Doctor To Get Patients Requests.
+## 🔷After the Verification is Successfully Completed By The Admin,The Doctor To Get Patients Requests else not.
 ## 🔷The Admin Can Also View the Doctor's Report.
 
 
@@ -68,15 +68,6 @@
 ## 🔷After the Appointment is Completed He can Request the Patient for a Rating.
   
   
-  
-  
- 
-  
-  
-  
-  
-
-
 
   
   
@@ -85,6 +76,27 @@
  ![Screenshot_20230616-141637_HosP](https://github.com/poovandrang/HosP-/assets/136569530/b664f112-7902-4f83-a092-c876bf03639c)
  ![Screenshot_20230616-142309_HosP](https://github.com/poovandrang/HosP-/assets/136569530/d5fb5c24-615c-444e-b03e-86b958e4664d)
  ![Screenshot_20230616-142431_HosP](https://github.com/poovandrang/HosP-/assets/136569530/18b54209-0c31-4a78-b070-a1cd2a573cc7)
+
+
+ # FEATURES
+ 
+1.Mobile Number And Email Validation.
+2.Confirm Password.
+3.Date Picker.
+4.Privacy
+5.Safe and Secure.
+6.Sqlite Database.
+
+
+# DESCREPTION
+The HosP Appointment Booking System helps patients book/schedule their appointment with healthcare providers, such as doctors or specialists in a systematic way. 
+
+
+
+
+
+
+ 
 
 
 
