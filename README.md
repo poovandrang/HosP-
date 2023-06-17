@@ -79,13 +79,17 @@
 
 
  # FEATURES
- 
-## 1.Mobile Number And Email Validation.
-## 2.Confirm Password.
-## 3.Date Picker.
-## 4.Privacy
-## 5.Safe and Secure.
-## 6.Sqlite Database.
+
+
+## 1.Forget Password.
+## 2.Mobile Number And Email Validation.
+## 3.Confirm Password.
+## 4.Date Picker.
+## 5.Privacy.
+## 6.Safe and Secure.
+## 7.Sqlite Database.
+
+
 
 
 # DESCREPTION
