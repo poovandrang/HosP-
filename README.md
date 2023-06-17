@@ -80,16 +80,16 @@
 
  # FEATURES
  
-1.Mobile Number And Email Validation.
-2.Confirm Password.
-3.Date Picker.
-4.Privacy
-5.Safe and Secure.
-6.Sqlite Database.
+## 1.Mobile Number And Email Validation.
+## 2.Confirm Password.
+## 3.Date Picker.
+## 4.Privacy
+## 5.Safe and Secure.
+## 6.Sqlite Database.
 
 
 # DESCREPTION
-The HosP Appointment Booking System helps patients book/schedule their appointment with healthcare providers, such as doctors or specialists in a systematic way. 
+## The HosP Appointment Booking System helps patients book/schedule their appointment with healthcare providers, such as doctors or specialists in a systematic way. 
 
 
 
